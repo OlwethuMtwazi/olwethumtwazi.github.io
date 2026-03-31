@@ -1,7 +1,7 @@
 
 ---
 ## ☎️ Contact Information
-- Email: ollymtwazi21@gmail.com  
+- Email: 230036937@mycput.ac.za 
 - Phone: 073 012 2510  
 - Location: Cape Town, South Africa  
 
@@ -31,6 +31,10 @@
 - **SafeBite:** Java-based mobile application used to detect expired products  
 
 ---
+
+## 📞 References
+Karin Swart – CPUT Lecturer
+SwartKS@cput.ac.za 
 
 ## 🎥 Mock Interview
 
