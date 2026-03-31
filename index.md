@@ -6,6 +6,8 @@
 - Location: Cape Town, South Africa  
 
 ---
+layout: default
+---
 
 ## 🏫 Education
 | Institution | Qualification | Year |
