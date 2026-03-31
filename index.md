@@ -39,6 +39,6 @@ SwartKS@cput.ac.za
 ## 🎥 Mock Interview
 
 <video width="600" controls>
-  <source src=""Olwethu Mtwazi mock interview.mp4"" type="video/mp4">
+  <source src=""https://raw.githubusercontent.com/OlwethuMtwazi/CV/main/mock-interview.mp4"" type="video/mp4">
 </video>
 
