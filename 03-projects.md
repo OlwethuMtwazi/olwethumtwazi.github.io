@@ -31,4 +31,4 @@ architecture and interface design for a consulting firm.
 - Applied database normalisation (1NF, 2NF, 3NF)
 - Collaborated with Sylvia Mahlangu, Siphokuhle Millior Angela Nyana, Ongeziwe Raqa and Emihle Faba
 
-🔗 [View Project Documentation (PDF)](Ikapa-documentation.pdf)
+🔗 [Download Project Documentation (PDF)](Ikapa-documentation.pdf)
