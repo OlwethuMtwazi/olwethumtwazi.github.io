@@ -12,7 +12,7 @@ backend business logic and database integration.
 
 - Developed backend functionality and database integration
 - Built UI/UX components to improve user interaction, final product wireframe does differ from Figma
-- Collaborated with Ricardo Mukwevho, Naledi Ngobese, Monique Davidene Pieterse, Alizwa Ndlokovane and Mojolefa	Mabotja.
+- Collaborated with Ricardo Mukwevho, Naledi Ngobese, Monique Davidene Pieterse, Alizwa Ndlokovane and Mojolefa	Mabotja
 
 🔗 [View Repository](link-to-carelink-repo)
 🎨 [View Figma Wireframes](https://www.figma.com/design/IhMLX5xE38BWcUEjwNroPO/CPUT-CareLink-wireframe?node-id=0-1&t=B9LOxyJ68zQuNl9V-1)
@@ -22,13 +22,13 @@ backend business logic and database integration.
 ## Ikapa Consulting — Business System Design
 *SQL, UI/UX Design | September 2025 – October 2025*
 
-A business system design project focused on database 
+Business system design project focused on database 
 architecture and interface design for a consulting firm.
 
 **Technologies used:** Figma, UI/UX
 
 - Designed UI/UX interface concepts for a business system
 - Applied database normalisation (1NF, 2NF, 3NF)
-- Collaborated with a team to model system requirements
+- Collaborated with Sylvia Mahlangu, Siphokuhle Millior Angela Nyana, Ongeziwe Raqa and Emihle Faba
 
-🔗 [View Project Documentation](link-to-ikapa-repo)
+🔗 [View Project Documentation](Information System 2. Group Assignment.pdf)
