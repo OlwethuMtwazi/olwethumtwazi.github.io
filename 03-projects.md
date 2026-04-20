@@ -17,7 +17,7 @@ A web-based mental health system developed using PHP with backend business logic
 ### Collaboration
 Worked with Ricardo Mukwevho, Naledi Ngobese, Monique Davidene Pieterse, Alizwa Ndlokovane, and Mojolefa Mabotja
 
-🔗 [View Carelink Repository](https://github.com/YOUR-USERNAME/Carelink-System)  
+🔗 [View Carelink Repository](https://github.com/OlwethuMtwazi/Carelink-system/tree/main)  
 🎨 [View Figma Wireframes](https://www.figma.com/design/IhMLX5xE38BWcUEjwNroPO/CPUT-CareLink-wireframe?node-id=0-1&t=B9LOxyJ68zQuNl9V-1)
 
 ---
