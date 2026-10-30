@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,6 +57,28 @@
     .evidence-box a:hover {
       text-decoration: underline;
     }
+
+    /* Evidence screenshot styling */
+    .evidence-screenshot {
+      width: 100%;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+      margin: 15px 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .screenshot-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+      margin: 15px 0;
+    }
+
+    @media (max-width: 600px) {
+      .screenshot-grid {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body>
@@ -95,12 +118,13 @@
 <div class="card">
   <div class="evidence-box">
     <strong>🔗 Evidence Link:</strong> 
-    <a href="Agile Charter 230036937.docx" target="_blank" rel="noopener">📄 View / Download Agile Team Charter Document</a>
+    <a href="PRP AGILE CHARTER.pdf" target="_blank" rel="noopener">📄 View / Download Updated Agile Team Charter PDF</a>[cite: 7]
   </div>
-  <p><strong>Situation:</strong> Working in a software development team requires establishing early operational boundaries, core values, and working agreements to ensure seamless collaboration.</p>
-  <p><strong>Task:</strong> Create an Agile Team Charter that serves as a shared social contract to align daily execution and minimize friction across sprints.</p>
-  <p><strong>Action:</strong> Collaborated with the team to define group expectations, communication protocols, decision-making frameworks, and operational rules.</p>
-  <p><strong>Result:</strong> Established clear team accountability and smooth workflow execution throughout the Item Hive project lifecycle.</p>
+  
+  <p><strong>Situation:</strong> Working in a software development team requires establishing early operational boundaries, core values, and working agreements to ensure seamless collaboration[cite: 8].</p>
+  <p><strong>Task:</strong> Create an Agile Team Charter that serves as a shared social contract to align daily execution and minimize friction across sprints[cite: 8].</p>
+  <p><strong>Action:</strong> Collaborated with the team to define group expectations, communication protocols, decision-making frameworks, and operational rules[cite: 8, 11, 13].</p>
+  <p><strong>Result:</strong> Established clear team accountability and smooth workflow execution throughout the Item Hive project lifecycle[cite: 8, 12].</p>
 </div>
 
 <h3>2. Product Backlog</h3>
@@ -109,6 +133,9 @@
     <strong>🔗 Evidence Link:</strong> 
     <a href="https://trello.com/b/jMjTyQX1/item-hive" target="_blank" rel="noopener">📌 Item Hive Trello Workspace — Product Backlog Column</a>
   </div>
+
+  <img src="images/trello-board.png" alt="Item Hive Trello Product Backlog Board Screenshot" class="evidence-screenshot">[cite: 23]
+
   <p><strong>Situation:</strong> Managing feature requests, improvements, and requirements for the Item Hive web platform in an organized manner.</p>
   <p><strong>Task:</strong> Build and maintain a prioritized Product Backlog containing all functional requirements and user expectations before committing work to active sprints.</p>
   <p><strong>Action:</strong> Created, structured, and prioritized user cards within the Trello Product Backlog column, ensuring items were properly categorized before sprint assignment.</p>
@@ -121,10 +148,13 @@
     <strong>🔗 Evidence Link:</strong> 
     <a href="https://trello.com/b/jMjTyQX1/item-hive" target="_blank" rel="noopener">📌 Item Hive Trello Workspace — Sprint Lists (In Progress & Completed)</a>
   </div>
+
+  <img src="images/trello-board.png" alt="Item Hive Trello Sprint Execution Board Screenshot" class="evidence-screenshot">[cite: 23]
+
   <p><strong>Situation:</strong> Translating project requirements into actionable time-boxed development iterations (sprints).</p>
   <p><strong>Task:</strong> Select and execute high-priority backlog items during active sprint cycles while tracking progress in real time.</p>
-  <p><strong>Action:</strong> Managed active sprint workflows by moving user stories through "Sprint: In Progress" and "Sprint: Completed" stages on Trello during development cycles.</p>
-  <p><strong>Result:</strong> Maintained transparent development velocity and completed technical deliverables within designated sprint timeframes.</p>
+  <p><strong>Action:</strong> Managed active sprint workflows by moving user stories through "Sprint: In Progress" and "Sprint: Completed" stages on Trello during development cycles[cite: 21].</p>
+  <p><strong>Result:</strong> Maintained transparent development velocity and completed technical deliverables within designated sprint timeframes[cite: 21].</p>
 </div>
 
 <h3>4. User Stories and Tasks</h3>
@@ -133,14 +163,20 @@
     <strong>🔗 Evidence Links:</strong> 
     <ul>
       <li><a href="https://trello.com/b/jMjTyQX1/item-hive" target="_blank" rel="noopener">📌 Item Hive Trello Board</a></li>
-      <li><a href="https://trello.com/c/6cPUBhI8" target="_blank" rel="noopener">📝 Sample User Story Card:Sprint 3 Day 3 (Order History & Wishlist) </a></li>
-      <li><a href="https://trello.com/c/cUHxxqv5" target="_blank" rel="noopener">📝 Sample User Story Card:Sprint 10 Day 2 (Dashboard UI) </a></li>
+      <li><a href="https://trello.com/c/6cPUBhI8" target="_blank" rel="noopener">📝 Sample User Story Card: Sprint 3 Day 3 (Order History & Wishlist)</a></li>
+      <li><a href="https://trello.com/c/cUHxxqv5" target="_blank" rel="noopener">📝 Sample User Story Card: Sprint 10 Day 2 (Dashboard UI)</a></li>
     </ul>
   </div>
+
+  <div class="screenshot-grid">
+    <img src="images/day-3-sprint.png" alt="Sprint 3 Day 3 User Story Card Screenshot" class="evidence-screenshot">[cite: 23]
+    <img src="images/day-10-sprint.png" alt="Sprint 10 Day 2 User Story Card Screenshot" class="evidence-screenshot">[cite: 23]
+  </div>
+
   <p><strong>Situation:</strong> Communicating software requirements clearly from the end-user's perspective and dividing work into manageable daily assignments.</p>
   <p><strong>Task:</strong> Write structured user stories for system features and break each story into granular, assignable subtasks.</p>
-  <p><strong>Action:</strong> Formulated user stories using standard Agile templates (e.g., <em>"As a user, I want..."</em>) and added detailed task checklists with assigned team members on individual Trello cards.</p>
-  <p><strong>Result:</strong> Improved task clarity and execution, ensuring every subtask had designated ownership (e.g., filters and customization assigned to Olwethu Mtwazi) to reach 100% completion.</p>
+  <p><strong>Action:</strong> Formulated user stories using standard Agile templates (e.g., <em>"As a user, I want..."</em>) and added detailed task checklists with assigned team members on individual Trello cards[cite: 21].</p>
+  <p><strong>Result:</strong> Improved task clarity and execution, ensuring every subtask had designated ownership (e.g., filters and customization assigned to Olwethu Mtwazi) to reach 100% completion[cite: 21].</p>
 </div>
 
 <h3>5. Agile Logbook</h3>
@@ -148,14 +184,15 @@
   <div class="evidence-box">
     <strong>🔗 Evidence Links:</strong> 
     <ul>
-      <li><a href="https://github.com/OlwethuMtwazi/olwethumtwazi.github.io/tree/main/logbooks" target="_blank" rel="noopener">📂 View All Agile Logbook Files (GitHub Repository Folder)</a></li>
+      <li><a href="https://github.com/OlwethuMtwazi/olwethumtwazi.github.io/tree/main/logbooks" target="_blank" rel="noopener">📂 View All Agile Logbook Files (GitHub Repository Folder)</a>[cite: 5]</li>
       <li><a href="https://trello.com/b/jMjTyQX1/item-hive" target="_blank" rel="noopener">📌 Item Hive Trello Workspace (Live Sprint Execution Logbook)</a></li>
     </ul>
   </div>
-  <p><strong>Situation:</strong> Documenting daily stand-ups, sprint planning, and technical progress throughout the software development lifecycle.</p>
-  <p><strong>Task:</strong> Maintain continuous records of development activities, team contributions, and project milestones.</p>
-  <p><strong>Action:</strong> Compiled structured weekly logbooks covering early project setup, architecture planning, and initial sprints. From August 4th onwards, as full-stack website development intensified, daily stand-up logs and task completion records were maintained directly within live Trello cards across Sprints 1 to 10.</p>
-  <p><strong>Result:</strong> Created a full audit trail connecting initial documentation to real-time sprint execution logs on Trello, demonstrating consistent project momentum up to final deployment.</p>
+
+  <p><strong>Situation:</strong> Documenting daily stand-ups, sprint planning, and technical progress throughout the software development lifecycle[cite: 13, 16, 18].</p>
+  <p><strong>Task:</strong> Maintain continuous records of development activities, team contributions, and project milestones[cite: 13, 16, 18].</p>
+  <p><strong>Action:</strong> Compiled structured weekly logbooks covering early project setup, architecture planning, and initial sprints[cite: 18, 19, 20]. From August 4th onwards, as full-stack website development intensified, daily stand-up logs and task completion records were maintained directly within live Trello cards across Sprints 1 to 16[cite: 21].</p>
+  <p><strong>Result:</strong> Created a full audit trail connecting initial documentation to real-time sprint execution logs on Trello, demonstrating consistent project momentum up to final deployment[cite: 16, 21].</p>
 </div>
 
 <h2>📄 Curriculum Vitae</h2>
